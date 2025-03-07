@@ -2,13 +2,13 @@
 <html>
 
 <head>
-	<meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Simple House - About Page</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
     <link href="css/all.min.css" rel="stylesheet" />
-	<link href="css/templatemo-style.css" rel="stylesheet" />
+    <link href="css/templatemo-style.css" rel="stylesheet" />
 </head>
 <!--
 
@@ -18,33 +18,7 @@ https://templatemo.com/tm-539-simple-house
 
 -->
 
-<body>
-
-	<div class="container">
-	<!-- Top box -->
-		<!-- Logo & Site Name -->
-		<div class="placeholder">
-			<div class="parallax-window" data-parallax="scroll" data-image-src="img/simple-house-01.jpg">
-				<div class="tm-header">
-					<div class="row tm-header-inner">
-						<div class="col-md-6 col-12">
-							<img src="img/simple-house-logo.png" alt="Logo" class="tm-site-logo" /> 
-							<div class="tm-site-text-box">
-								<h1 class="tm-site-title">Simple House</h1>
-								<h6 class="tm-site-description">new restaurant template</h6>	
-							</div>
-						</div>
-						<nav class="col-md-6 col-12 tm-nav">
-							<ul class="tm-nav-ul">
-								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
-								<li class="tm-nav-li"><a href="about.html" class="tm-nav-link active">About</a></li>
-								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
-							</ul>
-						</nav>	
-					</div>
-				</div>
-			</div>
-		</div>
+<?php include "parts/header.php" ?>
 
 		<main>
 			<header class="row tm-welcome-section">
@@ -136,21 +110,21 @@ https://templatemo.com/tm-539-simple-house
 						<div class="tm-feature">
 							<i class="fas fa-4x fa-pepper-hot tm-feature-icon"></i>
 							<p class="tm-feature-description">Donec sed orci fermentum, convallis lacus id, tempus elit. Sed eu neque accumsan, porttitor arcu a, interdum est. Donec in risus eu ante.</p>
-							<a href="index.html" class="tm-btn tm-btn-primary">Read More</a>
+							<a href="index.php" class="tm-btn tm-btn-primary">Read More</a>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="tm-feature">
 							<i class="fas fa-4x fa-seedling tm-feature-icon"></i>
 							<p class="tm-feature-description">Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit. Nam sed suscipit odio. Morbi in dolor finibus, consequat nisl eget.</p>
-							<a href="index.html" class="tm-btn tm-btn-success">Read More</a>
+							<a href="index.php" class="tm-btn tm-btn-success">Read More</a>
 						</div>
 					</div>
 					<div class="col-lg-4">
 						<div class="tm-feature">
 							<i class="fas fa-4x fa-cocktail tm-feature-icon"></i>
 							<p class="tm-feature-description">Morbi in dolor finibus, consequat nisl eget, pretium nunc. Maecenas pretium rutrum molestie. Duis dignissim egestas turpis sit.</p>
-							<a href="index.html" class="tm-btn tm-btn-danger">Read More</a>
+							<a href="index.php" class="tm-btn tm-btn-danger">Read More</a>
 						</div>
 					</div>
 				</div>
@@ -171,11 +145,7 @@ https://templatemo.com/tm-539-simple-house
 			</div>
 		</main>
 
-		<footer class="tm-footer text-center">
-			<p>Copyright &copy; 2020 Simple House 
-            
-            | Design: <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-		</footer>
+		<?php include "parts/footer.php"?>
 	</div>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/parallax.min.js"></script>
