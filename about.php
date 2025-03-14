@@ -21,11 +21,11 @@ https://templatemo.com/tm-539-simple-house
 <?php include "parts/header.php" ?>
 
 		<main>
-			<header class="row tm-welcome-section">
+			<div class="row tm-welcome-section">
 				<h2 class="col-12 text-center tm-section-title">About Simple House</h2>
 				<p class="col-12 text-center">This is about page of simple house template. 
                 You can modify and use this HTML template for your website. Total 3 HTML pages included in this template. Header image has a parallax effect.</p>
-			</header>
+			</div>
 
 			<div class="tm-container-inner tm-persons">
 				<div class="row">

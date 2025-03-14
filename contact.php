@@ -20,10 +20,10 @@ https://templatemo.com/tm-539-simple-house
 <?php include "parts/header.php" ?>
 
 		<main>
-			<header class="row tm-welcome-section">
+			<div class="row tm-welcome-section">
 				<h2 class="col-12 text-center tm-section-title">Contact Page</h2>
 				<p class="col-12 text-center">You may use <a rel="nofollow" href="https://www.ltcclock.com/downloads/simple-contact-form/" target="_blank">Simple Contact Form</a> to send email to your inbox. You can modify and use this template for your website. Header image has a parallax effect. Total 3 HTML pages included in this template.</p>
-			</header>
+			</div>
 
 			<div class="tm-container-inner-2 tm-contact-section">
 				<div class="row">

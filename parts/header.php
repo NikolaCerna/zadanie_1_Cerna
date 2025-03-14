@@ -1,6 +1,6 @@
 <body>
 
-<div class="container">
+<header class="container">
     <!-- Top box -->
     <!-- Logo & Site Name -->
     <div class="placeholder">
@@ -25,3 +25,4 @@
             </div>
         </div>
     </div>
+</header>
